@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "LogoFont";
+  src: url("12161.otf"); }
+.body {
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed; }
+  .body-index {
+    background-image: url("../img/bg.jpg"); }
+  .body-hairstyle {
+    background-image: url("../img/hairstyle.jpg"); }
+  .body-manicure {
+    background-image: url("../img/manicure.jpg"); }
+  .body-makeup {
+    background-image: url("../img/makeup.jpg"); }
+  .body-massage {
+    background-image: url("../img/massage.jpg"); }
+  .body-depilation {
+    background-image: url("../img/depilation.jpg"); }
+
+.content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  text-align: center; }
+  .content .logo {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    font-size: 200px;
+    font-family: LogoFont; }
+  .content .content-body {
+    height: auto;
+    width: 100%;
+    top: 0px;
+    left: 0px; }
+  .content .menu {
+    position: absolute;
+    bottom: 60px;
+    left: 0%;
+    right: 0%;
+    height: 70px;
+    cursor: pointer; }
+    .content .menu .menu-point {
+      position: relative;
+      display: inline-block;
+      width: 16.6666666667%;
+      margin: 0px -2px;
+      line-height: 70px;
+      text-align: center;
+      font-size: 40px;
+      text-shadow: 0 0 7px #b707e2;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+    .content .menu .index {
+      background-image: url("../img/bg.jpg"); }
+    .content .menu .hairstyle {
+      background-image: url("../img/hairstyle.jpg"); }
+    .content .menu .manicure {
+      background-image: url("../img/manicure.jpg"); }
+    .content .menu .makeup {
+      background-image: url("../img/makeup.jpg"); }
+    .content .menu .massage {
+      background-image: url("../img/massage.jpg"); }
+    .content .menu .depilation {
+      background-image: url("../img/depilation.jpg"); }
+  .content .contacts {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    text-shadow: 3px 2px 3px #0d0010; }
+  .content .table {
+    position: absolute;
+    top: 30px;
+    text-shadow: 0 0 2px #07e291;
+    font-size: 30px; }
+    .content .table.hairstyle {
+      top: 130px; }
+    .content .table .col-0 {
+      width: 90px; }
+    .content .table .col-1 {
+      width: 910px; }
+    .content .table .col-2 {
+      width: 145px; }
+    .content .table .td-center {
+      text-align: center; }
+    .content .table .for_table tr:hover {
+      background-color: #e67a7a26; }
+  .content .menu-hair {
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    height: 70px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px; }
+    .content .menu-hair:hover {
+      background: #f9dbf0;
+      border: 0px solid #bba6b5;
+      border-radius: 10px; }
+  .content .menu-length {
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px; }
+    .content .menu-length:hover {
+      background: #f9dbf0;
+      border: 0px solid #bba6b5;
+      border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */

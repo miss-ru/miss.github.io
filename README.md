@@ -1,2 +1,1 @@
-# miss.github.io
-miss.ru
+# miss.github.io 

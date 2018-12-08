@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href = "style/style.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    </head>
+    <body class = "body body-massage">
+        <div class = "content">
+            <div class = 'content-body'>
+                <table class="table table-massage">
+                    <thead>
+                        <tr>
+                            <th scope="col" class = 'w_space col-0'>№ п/п</th>
+                            <th scope="col" class = "col-1">Наименование услуг</th>
+                            <th scope="col" class = 'w_space col-2'>Цена, руб</th>
+                        </tr>
+                    </thead>
+                    <tbody class = 'for_table'>
+                
+                    </tbody>
+                </table> 
+            </div>
+            <div class = 'menu'>
+                <div class = 'index menu-point' onclick="location.href='index.html';">Главная</div>
+                <div class = 'hairstyle menu-point' onclick="location.href='hairstyle.html';">Стрижки</div>
+                <div class = 'manicure menu-point' onclick="location.href='manicure.html';">Маникюр</div>
+                <div class = 'makeup menu-point' onclick="location.href='makeup.html';">Макияж</div>
+                <div class = 'massage menu-point' onclick="location.href='massage.html';">Массаж</div>
+                <div class = 'depilation menu-point' onclick="location.href='depilation.html';">Депиляция</div>
+            </div>
+            <div class = 'contacts'>
+                <span>Мы находимся: г. Чебоксары, Ленинский район, ул. Привокзальная, дом 3. Вход с торца здания слева.</span> <br/>
+                <span>Время работы: Ежедневно с 9:00 до 19:00</span><br/>
+                <span>Телефон: +7(8352)22-25-69</span>
+            </div>
+        </div>
+    </body>
+    <script src = 'script/price.js'></script>
+    <script src = 'script/script.js'></script>
+    <script>
+        price_table('massage');
+    </script>
+</html>

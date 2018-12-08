@@ -1,0 +1,188 @@
+
+@font-face{
+	font-family: "LogoFont";
+	src: url('12161.otf');
+}
+
+.body{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+
+    &-index{
+        background-image: url('../img/bg.jpg');
+    }
+
+    &-hairstyle{
+        background-image: url('../img/hairstyle.jpg');
+    }
+
+    &-manicure{
+        background-image: url('../img/manicure.jpg');
+    }
+
+    &-makeup{
+        background-image: url('../img/makeup.jpg');
+    }
+
+    &-massage{
+        background-image: url('../img/massage.jpg');
+    }
+
+    &-depilation{
+        background-image: url('../img/depilation.jpg');
+    }
+    
+}
+
+.content{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    .logo{            
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        font-size: 200px;
+		font-family: LogoFont;
+    }
+
+    .content-body{
+        height: auto;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+
+    .menu{
+        position: absolute;
+        bottom: 60px;
+        left: 0%;
+        right: 0%;
+        height: 70px;
+        cursor: pointer;
+
+        .menu-point{
+            position: relative;
+            display: inline-block;
+            width: (100/6)*1%;
+            margin: 0px -2px;
+            line-height: 70px;
+            text-align: center;
+            font-size: 40px;
+            text-shadow: 0 0 7px rgb(183, 7, 226);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;   
+        }
+
+        .index{
+            background-image: url('../img/bg.jpg');         
+        }
+
+        .hairstyle{
+            background-image: url('../img/hairstyle.jpg');         
+        }
+
+        .manicure{
+            background-image: url('../img/manicure.jpg');         
+        }
+
+        .makeup{
+            background-image: url('../img/makeup.jpg');         
+        }
+
+        .massage{
+            background-image: url('../img/massage.jpg');         
+        }
+
+        .depilation{
+            background-image: url('../img/depilation.jpg');         
+        }
+
+    }
+
+    .contacts{
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+        right: 0%;
+        font-size: 24px;
+        text-align: left;
+        color: white;
+        text-shadow: 3px 2px 3px #0d0010;
+    }
+
+    .table{
+        position: absolute;
+        top: 30px;
+        text-shadow: 0 0 2px #07e291;
+        font-size: 30px;
+
+        &.hairstyle{
+            top: 130px;
+        }
+
+        .col-0{
+            width: 90px;
+        }
+
+        .col-1{
+            width: 910px;
+        }
+
+        .col-2{
+            width: 145px;
+        }
+
+        .td-center{
+            text-align: center;
+        }
+
+        .for_table{
+            tr{
+                &:hover{
+                    background-color: #e67a7a26;
+                }
+            }
+        }
+    }
+
+    .menu-hair{
+        cursor: pointer;
+        display: inline-block;
+        width: 250px;
+        height: 70px;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 70px;
+        font-size: 25px;
+
+        &:hover{
+            background: #f9dbf0;
+            border: 0px solid #bba6b5;
+            border-radius: 10px;
+        }
+    }
+    
+    .menu-length{
+        cursor: pointer;
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        vertical-align: middle;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+
+        &:hover{
+            background: #f9dbf0;
+            border: 0px solid #bba6b5;
+            border-radius: 10px;
+        }
+    }
+}
